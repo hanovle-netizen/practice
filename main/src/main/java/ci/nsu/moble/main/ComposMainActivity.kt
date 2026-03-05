@@ -28,7 +28,7 @@ private val colorMap = mapOf(
     "Pink"    to Color(0xFFE91E63)
 )
 
-class MainActivity : ComponentActivity() {
+class ComposMainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
